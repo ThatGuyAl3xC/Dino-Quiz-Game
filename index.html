@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Dinosaur Quiz</h1>
+        <div id="quiz">
+            <div id="question">Question text</div>
+            <div class="options">
+                <button class="option">Option 1</button>
+                <button class="option">Option 2</button>
+                <button class="option">Option 3</button>
+                <button class="option">Option 4</button>
+            </div>
+            <button id="submit" class="btn">Submit Answer</button>
+        </div>
+    </div>
+
+    <!-- Modal for displaying game outcome -->
+    <div class="game-modal">
+        <div class="content">
+            <img src="#" alt="dino image" id="modal-img">
+            <h4 id="modal-title">Game Over</h4>
+            <p id="modal-text"></p>
+            <button id="replay-quiz" class="replay-quiz">Replay Quiz</button>
+        </div>
+    </div>
+
+    <script src="scripts/question-list.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
